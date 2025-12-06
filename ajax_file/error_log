@@ -1,0 +1,2 @@
+[31-Oct-2025 12:06:13 UTC] PHP Notice:  Undefined index: ValidationDetails in /home/v9vpgbhucj07/public_html/hmimpex.com/blite/ajax_file/check_email_exist.php on line 13
+[31-Oct-2025 12:06:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/v9vpgbhucj07/public_html/hmimpex.com/blite/ajax_file/check_email_exist.php on line 13
