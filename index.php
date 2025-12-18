@@ -20,7 +20,7 @@ require_once 'services/commonService.php';
 
     <!-- Replace video.mp4 with your hosted mp4/webm. Add webm source first if you have it. -->
 
-    <video id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="poster.jpg" aria-hidden="true">
+    <video id="heroVideo" autoplay muted loop playsinline preload="metadata" poster="img/poster.jpg" aria-hidden="true">
 
         <!-- Provide webm then mp4 for broad compatibility -->
 
@@ -36,7 +36,7 @@ require_once 'services/commonService.php';
 
     <!-- Fallback background (mobile/touch devices): set poster.jpg or any image -->
 
-    <div class="hero-bg" id="heroBg" style="background-image: url('poster.jpg');" aria-hidden="true"></div>
+    <div class="hero-bg" id="heroBg" style="background-image: url('img/poster.jpg');" aria-hidden="true"></div>
 
 
 
@@ -56,11 +56,11 @@ require_once 'services/commonService.php';
 
         <div class="hero-actions">
 
-            <a class="btn btn-primary" href="<?= ROOT_URL ?>contact.php" role="button" aria-label="Shop Now">Book Your
+            <a class="btn btn-primary w-m-100" href="<?= ROOT_URL ?>contact.php" role="button" aria-label="Shop Now">Book Your
 
                 Consultation</a>
 
-            <a class="btn btn-secondary" href="<?= ROOT_URL ?>meal_plans.php" role="button"
+            <a class="btn btn-secondary w-m-100" href="<?= ROOT_URL ?>meal_plans.php" role="button"
                 aria-label="Browse Collections">Browse
 
                 Meal Plans</a>
